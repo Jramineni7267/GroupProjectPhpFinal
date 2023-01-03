@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins",sans-serif;
+}
+img{
+    max-width: 100%;
+}
+a.brand-wrap img {
+    max-height: 85px;
+}
+ul.head_nav {
+    margin: 0;
+}
+.head_nav li{
+    display: inline-block;
+    padding: 0 20px;
+}
+li.nav.item a {
+    text-decoration: none;
+    font-weight: 600;
+}
+li.nav.item a:hover {
+    border-bottom: 2px solid #212529;
+}
+.herosection {
+    background-image: url(image/hero.jpeg);
+    background-position: center;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 7em 0;
+}
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+h3{
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+h4 {
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+p {
+    font-size: 17px;
+    line-height: 32px;
+}
+.best_img {
+    max-width: 460px;
+}
+.page_title {
+    max-width: 800px;
+    margin: 0 auto;
+}
+ul.list-unstyled a {
+    text-decoration: none;
+}
+ul.list-unstyled a:hover{
+    border-bottom: 1px solid #fff;
+}
+ul.list-unstyled li {
+    padding: 6px 0;
+}
+h5.text-uppercase {
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin: 0 0 25px;
+}
+.card{
+    padding: 30px 15px;
+    text-align: center;
+    /* max-width: 200px; */
+}
+.card-img-top {
+    max-width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    object-fit: contain;
+}
+h6.card-subtitle {
+    color: #dc3545!important;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px!important;
+    margin-top: 10px;
+}
+.card-title{
+    font-weight: 600;
+}
+.btn-dark:hover {
+    color: #000;
+    background-color: #ffc720;
+    border-color: #ffc720;
+}
+.btn-sm {
+    padding: 0.75rem 0.5rem;
+}
+.btn {
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.form-control-sm{
+    text-align: center;
+}
+.login_logo {
+    max-width: 150px;
+    margin: 0 auto 50px;
+}
+ul.tech_list {
+    max-width: 800px;
+    margin: 0 auto;
+}
+ul.tech_list li {
+    font-size: 18px;
+    line-height: 30px;
+    padding: 7px 0;
+}
+.about-section .card {
+    padding: 5px;
+}
+.team_detail {
+    padding: 15px 0;
+}
+.team_detail p {
+    margin: 0 0 0;
+}
+.modal-dialog {
+    max-width: 830px;
+}
